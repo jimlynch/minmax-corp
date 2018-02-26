@@ -1,0 +1,23 @@
+{
+    // required
+    "name": "minmax-corp",
+	"version": "0.0.7",
+	"theme": {
+		"file": "theme.less",
+		"dark": true,
+		"addModeClass": true
+	},
+
+    // additional
+    "title": "MinMax Corp",
+	"description": "Workplace of MinMaxers worldwide.",
+    /*
+	"author": {
+		"name": "Jim Lynch",
+//		"url": "https://github.com/jimlynch"
+	},
+//	"homepage": "https://github.com/guilhermeodai/Monokai-Strikes-Back",
+	"license": "MIT",
+	"keywords": ["theme", "minmax", "dark", "javascript"]
+    */
+}

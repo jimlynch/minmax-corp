@@ -1,0 +1,162 @@
+// MinMax Corp - Brackets theme
+
+@background      : #232421;  //good
+@line            : #979792;  //good - I think this is for line numbers
+@comments        : #797870;  //good
+@selected-focus  : #494840;
+@selected        : #383830;
+
+@purple          : #AE81FF;
+@blue            : #66D9EF;
+@aqua            : #2EE2A6;
+@acid            : #1DCC33;
+@green           : #A5E22E;
+@yellow          : #E6DB73;
+@orange          : #FD971F;
+@pink            : #F92571;
+@rose            : #F466B4;
+@white           : #F7F7F2;
+//@minmaxblue      : #4286f4;   
+
+
+//.cm-keyword { color: @minmaxblue; }
+.cm-keyword { color: @blue; }
+.cm-atom, .cm-link, .cm-number { color: @purple; }
+.cm-attribute, .cm-qualifier { color: @green; }
+//.cm-bracket, .cm-keyword, .cm-tag { color: @pink; }
+.cm-bracket, .cm-tag { color: @pink; }
+.cm-comment { color: @comments; }
+.cm-def { color: @orange; }
+.cm-meta { color: @orange; font-weight: bold; }
+.cm-m-css.cm-meta { font-weight: normal; }
+.cm-operator, .cm-variable, .cm-variable-3 { color: @white; }
+.cm-variable-2 { color: @aqua; }
+.cm-string { color: @yellow; }
+.cm-property { color: @blue; }
+.cm-error { color: @white; background-color: @pink; }
+
+.cm-header {}
+.cm-hr {}
+.cm-minus {}
+.cm-plus {}
+.cm-quote {}
+.cm-rangeinfo {}
+
+
+.CodeMirror, .CodeMirror-scroll {
+    background-color: @background;
+    color: @white;
+}
+
+.CodeMirror-cursor {
+    border-left: 1px solid @white !important;
+}
+
+.CodeMirror-overwrite .CodeMirror-cursor {
+    border-left: none !important;
+    border-bottom: 1px solid @white;
+}
+
+.CodeMirror-gutters {
+    background-color: @background;
+}
+
+.CodeMirror-linenumber {
+    color: @line;
+}
+
+.CodeMirror .CodeMirror-selected {
+    background-color: @selected;
+}
+
+.CodeMirror-focused .CodeMirror-selected {
+    background-color: @selected-focus;
+}
+
+.CodeMirror-nonmatchingbracket {
+    background-color: @pink;
+    color: @white;
+}
+
+.CodeMirror-matchingtag {
+    background-color: @selected;
+}
+
+.CodeMirror-searching {
+    background-color: @yellow;
+}
+
+.searching-current-match {
+    background-color: @orange;
+}
+
+
+/*  REVISAR */
+
+.cm-builtin { color: @rose; }
+.cm-m-clike.cm-builtin, .cm-m-sql.cm-builtin { color: @blue; }
+.cm-string-2 { color: #ff0fab; }
+.cm-m-sql.cm-string-2 { color: @orange; }
+
+.CodeMirror-matchingbracket {
+    background: 0 0 !important;
+    color: @acid !important;
+    text-shadow: 0 0 5px @acid;
+    font-weight: 700;
+}
+
+.CodeMirror-foldgutter-open:after {
+    content: "▬";
+    font-weight: 700;
+    color: @acid !important;
+}
+
+.CodeMirror-foldgutter-folded:after {
+    content: "▼";
+    font-weight: 700;
+    background: 0 0 !important;
+    color: @acid !important;
+    text-shadow: 0 0 5px @acid;
+}
+
+.CodeMirror-foldgutter-folded {
+    padding-top: 1px;
+}
+
+.CodeMirror-foldgutter-open {
+    padding-top: 2px;
+}
+
+.CodeMirror-foldmarker {
+    border: 0;
+    color: @acid !important;
+    background-color: @background;
+    text-shadow: 0 0 5px @acid;
+}
+
+.image-view, .not-editor {
+    background-color: @background;
+}
+
+.view-pane .image-view {
+    color: @white;
+}
+
+/* DON'T SEEM TO BE WORKING IN BRACKETS 1.11, AT LEAST */
+
+.CodeMirror-activeline-background {
+    background-color: @selected;
+}
+
+.CodeMirror-focused .CodeMirror-activeline-background {
+    background-color: @selected;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+    background-color: @selected;
+    color: @white;
+}
+
+.cm-matchhighlight {
+    background-color: #333;
+}
