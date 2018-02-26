@@ -11,13 +11,11 @@
     // additional
     "title": "MinMax Corp",
 	"description": "Workplace of MinMaxers worldwide.",
-    /*
 	"author": {
 		"name": "Jim Lynch",
-//		"url": "https://github.com/jimlynch"
+		"url": "https://github.com/jimlynch"
 	},
-//	"homepage": "https://github.com/guilhermeodai/Monokai-Strikes-Back",
+	"homepage": "https://github.com/jimlynch/minmax-corp",
 	"license": "MIT",
 	"keywords": ["theme", "minmax", "dark", "javascript"]
-    */
 }
