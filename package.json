@@ -1,21 +1,25 @@
 {
-    // required
-    "name": "minmax-corp",
-	"version": "0.0.7",
-	"theme": {
-		"file": "theme.less",
-		"dark": true,
-		"addModeClass": true
-	},
-
-    // additional
-    "title": "MinMax Corp",
-	"description": "Workplace of MinMaxers worldwide.",
+	"title": "MinMax Corp",
+	"name": "minmax-corp",
+	"description": "Workplace of MinMaxer worldwide.",
+	"version": "1.0.0",
 	"author": {
 		"name": "Jim Lynch",
 		"url": "https://github.com/jimlynch"
 	},
 	"homepage": "https://github.com/jimlynch/minmax-corp",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jimlynch/minmax-corp.git"
+	},
 	"license": "MIT",
-	"keywords": ["theme", "minmax", "dark", "javascript"]
+	"engines": {
+		"brackets": ">=1.3.0"
+	},
+	"theme": {
+		"file": "main.less",
+		"dark": true,
+		"addModeClass": true
+	},
+	"keywords": ["theme", "dark", "javascript", "minmax"]
 }
